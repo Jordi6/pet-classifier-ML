@@ -18,5 +18,5 @@ label = gr.outputs.Label()
 examples = ['basset.jpg']
 
 
-intf = gr.Interface(fn=classify_image, inputs=image, outputs=label, exmples=examples)
+intf = gr.Interface(fn=classify_image, inputs=image, outputs=label, examples=examples)
 intf.launch()
